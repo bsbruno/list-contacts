@@ -1,0 +1,35 @@
+.mainItens{
+    padding: 20px;
+}
+#titlemenu{
+    font-size: 40px;
+    color: rgb(197, 194, 196);
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text],[type=email],[type=tel]{
+    width: 100%;
+    padding: 22px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 8px;
+    
+
+}
+
+input[type=submit]{
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(189, 144, 189);
+}
+input[type=submit]:hover{
+    background-color: red;
+}

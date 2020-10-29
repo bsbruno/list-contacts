@@ -1,0 +1,41 @@
+.imgHome{
+    width: 60px;
+    height: 60px;
+}
+
+.listHome{
+    display: flex;
+     justify-content: space-around;
+    font-size: 40px;
+    
+    flex-wrap: wrap;
+    margin-top:  20vh;
+    padding: 30px;
+   
+}
+.listHome ,ul,li {
+    padding: 10px;
+    padding-bottom: 10px
+   
+}
+.listHome >ul > li > a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.listHome >ul > li > a:hover{
+    color: yellow;
+ 
+}
+.imgHome{
+    width: 60px;
+    height: 60px;
+    margin: 30px;
+    animation-name: img;
+    animation-duration: 6s;
+}
+@keyframes img{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+

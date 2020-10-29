@@ -1,0 +1,12 @@
+#headermenu{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+#headermenu>li{
+list-style-type: none;
+margin: 0;
+padding: 0;
+}

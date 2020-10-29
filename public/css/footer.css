@@ -1,0 +1,13 @@
+#footer{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+#footer > a{
+padding: 10px;
+color: black;
+padding-top: 15px;
+text-decoration: none;
+}
+

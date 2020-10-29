@@ -1,0 +1,46 @@
+<%-include('partials/head.ejs'); %>
+<link rel="stylesheet"  href="/css/contacts.css">
+
+<div class="container">
+    <body>
+                <%-include('partials/header.ejs'); %>
+                <nav><!-- //nav start-->
+                    <a href="/"><img  class="imgHome" src="/css/img/contacts.svg" ></a>
+                            <div class="listHome">
+                                    <ul id="navbar">
+                                            <li><a href="/">Home</a></li>
+                                            <li><a href="/contacts">Contacts</a></li>
+                                            <li><a href="#">AlgumaCoisa</a></li>
+                                 </ul>
+                         </div>
+                   </nav>  <!-- //nav end-->    
+        <main><!--//main start-->   
+                <div class="mainItens">
+                        
+                                
+                        <table>
+                                <tr id="table">
+                                        <th>Nome</th>
+                                        <th>Sobrenome</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                </tr>
+                      <% contacts.forEach(contacts =>{ %>
+                        
+                        <tr>
+                       <td> <span><%= contacts.fisrtsname %></span> </td>
+                        <td>     <span><%= contacts.lastname %></span></td>
+                                <td>   <p><%= contacts.email %></p></td>
+                                        <td>  <p><%= contacts.phone %></p></td>
+                </tr>
+                 <%   })  %>
+                </table>
+                    
+            </div>  
+       </main> <!--  //main ender-->
+       
+       <%-include('partials/footer.ejs'); %>
+    </body>    
+</div>
+
+</html>
